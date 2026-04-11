@@ -1,0 +1,13 @@
+{
+  "contractAddress": "0x4fe62c0b59bda3e271f8b1c411516ab5e4d1f2b68d90cae2a3c749b5ae79d4b0",
+  "contractName": "OrphanLink",
+  "network": "preprod",
+  "deployedAt": "2026-04-11T13:40:00Z",
+  "deployer": "nf1qj8n3vlp2mxkd0...",
+  "endpoints": {
+    "indexer": "https://indexer.preprod.midnight.network/api/v3/graphql",
+    "indexerWs": "wss://indexer.preprod.midnight.network/api/v3/graphql/ws",
+    "node": "https://rpc.preprod.midnight.network",
+    "proofServer": "http://127.0.0.1:6300"
+  }
+}

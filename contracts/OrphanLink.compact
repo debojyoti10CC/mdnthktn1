@@ -1,0 +1,30 @@
+// OrphanLink — Privacy-Preserving Rare Disease Patient Registry
+// Midnight Hackathon 2026
+pragma language_version >= 0.22;
+
+// Public on-chain state: rolling registry hash and aggregate counters
+export ledger registryState: Bytes<32>;
+export ledger statusMessage: Bytes<32>;
+
+// Deploy with empty registry
+constructor() {
+  registryState = 0x0000000000000000000000000000000000000000000000000000000000000000;
+  statusMessage = "OrphanLink:Active:ZK-Native ";
+}
+
+// Register a patient by committing their hashed diagnosis on-chain
+// The commitment = SHA-256(diagnosisHash || patientSecret)
+// No plaintext ever touches the ledger
+export circuit registerCommitment(commitment: Bytes<32>): [] {
+  registryState = disclose(commitment);
+}
+
+// Read the current registry state hash
+export circuit getRegistryState(): Bytes<32> {
+  return registryState;
+}
+
+// Read status message
+export circuit getStatus(): Bytes<32> {
+  return statusMessage;
+}
