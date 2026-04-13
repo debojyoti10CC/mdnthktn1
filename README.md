@@ -307,7 +307,7 @@ OrphanLink demonstrates a complete application of Midnight’s privacy infrastru
 * Identity abstraction via ZK credentials
 * Data utility without exposure
 * Incentivized participation through token economics
-* Dual-market model (community + research)
+
 
 It transforms rare disease ecosystems from fragmented and opaque systems into a **globally connected, privacy-preserving, and economically aligned network**.
 
