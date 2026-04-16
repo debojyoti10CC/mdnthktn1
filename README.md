@@ -165,8 +165,7 @@ OrphanLink’s core technical contribution is a **ZK-powered aggregate query sys
 | ------------------------- | -------------------------------------------- |
 | Cross-institution queries | Combine global patient data without transfer |
 | Privacy preservation      | No individual record exposure                |
-| Verifiable computation    | ZK proof guarantees correctness              |
-| Regulatory compliance     | No violation of HIPAA/GDPR constraints       |
+
 
 Example Query:
 
