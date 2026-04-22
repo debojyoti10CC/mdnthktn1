@@ -2,9 +2,7 @@
 # OrphanLink
 
 **Privacy-Preserving Rare Disease Community and Research Registry**
-Midnight Hackathon Submission · Healthcare Track · April 2026
 
----
 
 ## 1. Overview
 
