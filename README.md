@@ -1,7 +1,7 @@
 
 # OrphanLink
 
-**Privacy-Preserving Rare Disease Community 
+Privacy-Preserving Rare Disease Community 
 
 
 ## 1. Overview
